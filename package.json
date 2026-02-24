@@ -1,0 +1,16 @@
+{
+  "name": "lucas-smart-sum-package",
+  "version": "0.0.3",
+  "description": "A simple package to sum two numbers",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "keywords": [
+    "sum",
+    "add",
+    "math"
+  ],
+  "author": "WenKai",
+  "license": "MIT"
+}
