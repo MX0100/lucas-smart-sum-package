@@ -39,9 +39,10 @@ jobs:
 
       - name: Publish summary
         run: |
+          VERSION=$(node -p "require('./package.json').version")
           echo "## 🎉 Published Successfully!" >> $GITHUB_STEP_SUMMARY
           echo "" >> $GITHUB_STEP_SUMMARY
           echo "- **Package:** lucas-smart-sum-package" >> $GITHUB_STEP_SUMMARY
-          echo "- **Version:** $(node -p \"require('./package.json').version\")" >> $GITHUB_STEP_SUMMARY
+          echo "- **Version:** $VERSION" >> $GITHUB_STEP_SUMMARY
           echo "- **npm:** https://www.npmjs.com/package/lucas-smart-sum-package" >> $GITHUB_STEP_SUMMARY
 
