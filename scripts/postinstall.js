@@ -6,7 +6,7 @@ const yellow = '\x1b[33m';
 const reset = '\x1b[0m';
 const bold = '\x1b[1m';
 
-console.log(`
+console.warn(`
 ${cyan}╔════════════════════════════════════════════════════════════╗
 ║                                                            ║
 ║   ${green}✨ ${bold}lucas-smart-sum-package${reset}${cyan} installed successfully!    ║
